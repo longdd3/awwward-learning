@@ -1,0 +1,32 @@
+{
+  "name": "awwward-learning",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000a\u0000w\u0000w\u0000w\u0000a\u0000r\u0000d\u0000-\u0000l\u0000e\u0000a\u0000r\u0000n\u0000i\u0000n\u0000g\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "dependencies": {
+    "@parcel/transformer-babel": "^2.6.2",
+    "@parcel/transformer-glsl": "^2.6.2",
+    "glsl-shader-loader": "^0.1.6",
+    "parcel": "^2.6.2",
+    "parcel-bundler": "^1.12.5",
+    "three": "^0.142.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "parcel src/index.html --open",
+    "clean": "rd /s /q dist",
+    "build:parcel": "parcel build src/index.html --no-minify --no-source-maps --public-url ./",
+    "build": "npm run clean && npm run build:parcel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/longdd3/awwward-learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/longdd3/awwward-learning/issues"
+  },
+  "homepage": "https://github.com/longdd3/awwward-learning#readme"
+}
