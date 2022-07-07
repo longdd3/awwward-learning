@@ -4,11 +4,10 @@ Yuri Artiukh and his channel on https://www.awwwards.com/settings/academy
 These are experimental, extended and creative articles
 
 How to run: 
--
 "npm -i"
--
-"npm start
--
+
+"npm start"
+
 "npm run build "
 
 
