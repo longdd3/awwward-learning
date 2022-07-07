@@ -1,4 +1,4 @@
-﻿# awwward-learning - Day 2
+﻿# awwward-learning - Process 
 Using three.js to create a portfolio of myself, with my coursework
 Yuri Artiukh and his channel on https://www.awwwards.com/settings/academy
 These are experimental, extended and creative articles
