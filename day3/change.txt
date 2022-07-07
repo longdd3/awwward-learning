@@ -1,0 +1,2 @@
+3Rd day of learning WebGL, 
+This time I experenced Fragment Shader and Vertex Shader using some noise 4 dimensions, and vUv, image texture 
