@@ -20,6 +20,7 @@ with sin function
  let bounds = img.getBoundingClientRect();
  
  clone material,and push material to in an array named materials.
+ ---
   let m = this.material.clone();
   this.materials.push(m);
   return as an object
@@ -32,7 +33,9 @@ with sin function
                 left: bounds.left,
    
    }
-   final code. /
+   --
+   final code
+   --
     this.imageStore = this.images.map(img =>{
             let bounds = img.getBoundingClientRect();
             let m = this.material.clone();
@@ -60,4 +63,4 @@ with sin function
                 left: bounds.left,
             }   
         })
-   
+   --
