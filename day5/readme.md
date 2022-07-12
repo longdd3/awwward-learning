@@ -4,28 +4,35 @@ playing with wave function
 float waves = sine*0.1*sin(5.*length(uv) + 15. *uProgress);
 
 with sin function 
+--
  float sine = sin(PI*uProgress);
- 
+ --
  merging html with three.js webgl 
  
  for images 
  
  set scale of mesh to the siez of image 
+ --
   this.mesh.scale.set(300, 300,1);
-  loacte all images 
+ --
+ loacte all images 
+ --
  this.images = [...document.querySelectorAll('.js-image')];
  this.materials = [];
- 
+ --
  also get bound of images 
+ --
  let bounds = img.getBoundingClientRect();
- 
+ --
  clone material,and push material to in an array named materials.
  ---
   let m = this.material.clone();
   this.materials.push(m);
-  return as an object
-   return {
-     img: img,
+  
+ return as an object
+ --
+  return {
+                img: img,
                 mesh: mesh,
                 width: bounds.width,
                 height: bounds.height,
